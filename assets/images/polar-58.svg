@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1500 1500" width="1500" height="1500" x="0px" y="0px">
+    
+    
+    <!-- ITEM 0 -->
+    <g>
+        <defs>
+            <clipPath id="clip-path-id-viewbox-item-0">
+                <rect x="0.0" y="0.0" width="270.993" height="517.85"/>
+            </clipPath>
+        </defs>
+        <g transform="translate(810.0 102.0) rotate(0.0 -342.5 655.0) scale(-2.5277405689445853 2.529690064690547)">
+            <g clip-path="url(#clip-path-id-viewbox-item-0)" transform="translate(-0.0 -0.0)">
+                
+<g>
+	<path style="fill:#115693;" d="M270.993,517.85H0V0h61.988c115.43,0,209.005,93.575,209.005,209.005V517.85z"/>
+</g>
+
+            </g>
+        </g>
+    </g>
+    
+    <!-- ITEM 1 -->
+    <g>
+        <defs>
+            <clipPath id="clip-path-id-viewbox-item-1">
+                <rect x="0.0" y="0.0" width="238.976" height="540.027"/>
+            </clipPath>
+        </defs>
+        <g transform="translate(806.0 168.0) rotate(0.0 274.5 622.5) scale(2.297301821103374 2.3054402835413783)">
+            <g clip-path="url(#clip-path-id-viewbox-item-1)" transform="translate(-0.0 -0.0)">
+                
+<g>
+	<g>
+		<path style="fill:#050c04;" d="M0,540.027h238.976V226.241C238.976,101.292,137.685,0,12.735,0L0,0L0,540.027z"/>
+	</g>
+</g>
+
+            </g>
+        </g>
+    </g>
+    
+    <!-- ITEM 2 -->
+    <g>
+        <defs>
+            <clipPath id="clip-path-id-viewbox-item-2">
+                <rect x="0.0" y="0.0" width="229.006" height="279.191"/>
+            </clipPath>
+        </defs>
+        <g transform="translate(491.0 809.0) rotate(-14.504542650562355 217.5 265.0) scale(1.8995135498633224 1.8983419952648906)">
+            <g clip-path="url(#clip-path-id-viewbox-item-2)" transform="translate(-0.0 -0.0)">
+                
+<g>
+	<g>
+		<path style="fill:#FFEEA6;" d="M211.006,279.191H18c-9.941,0-18-8.059-18-18V18C0,8.059,8.059,0,18,0h193.006    c9.941,0,18,8.059,18,18v243.191C229.006,271.133,220.947,279.191,211.006,279.191z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="31.779" y="19.723" style="fill:#050c04;" width="165.447" height="224.777"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path style="fill:#1E9E9C;" d="M140.523,40.755h-52.04c-8.473,0-15.342-6.869-15.342-15.342V0h82.723v25.414    C155.865,33.887,148.996,40.755,140.523,40.755z"/>
+	</g>
+</g>
+
+            </g>
+        </g>
+    </g>
+    
+    <!-- ITEM 3 -->
+    <g>
+        <defs>
+            <clipPath id="clip-path-id-crop-item-3">
+                
+          <g transform="scale(0.4388086696562033 0.439381174277726)">
+          <rect x="181.0" y="0.0" width="485.0" height="1073.0"/>
+          </g>
+        
+            </clipPath>
+            
+            <clipPath id="clip-path-id-viewbox-item-3">
+                <rect x="0.0" y="0.0" width="293.563" height="471.456"/>
+            </clipPath>
+        </defs>
+        <g clip-path="url(#clip-path-id-crop-item-3)" transform="translate(724.0 345.0) rotate(0.0 334.5 536.5) scale(2.278897544990343 2.2759281884205524)">
+            <g clip-path="url(#clip-path-id-viewbox-item-3)" transform="translate(-0.0 -0.0)">
+                
+<g>
+	<g>
+		<path style="fill:#FFC1A3;" d="M265.969,95.65c0-39.96-32.394-72.355-72.355-72.355c-1.887,0-3.757,0.073-5.608,0.215    l-11.105,0.474c-38.903,0-65.144,31.537-65.144,70.44v28.474h12.818v10.299h4.533l-0.058,8.615    c-0.094,13.866,11.035,21.457,24.9,21.618l13.236,0.154l0.054,41.886h55.844l-0.049-43.7    C248.333,150.495,265.969,125.134,265.969,95.65z"/>
+	</g>
+	<g>
+		<circle style="fill:#0F0F0E;" cx="141.628" cy="89.225" r="6.734"/>
+	</g>
+	<g>
+		<path style="fill:#FFEEA6;" d="M135.406,74.303h12.433c1.827,0,3.309-1.481,3.309-3.309s-1.481-3.309-3.309-3.309h-12.433    c-1.827,0-3.309,1.481-3.309,3.309S133.578,74.303,135.406,74.303z"/>
+	</g>
+	<g>
+		<path style="fill:#108E82;" d="M293.563,471.456l-95.133-0.01l24.623-290.413l23.574,0.239c25.922,0,46.937,21.014,46.937,46.937    V471.456z"/>
+	</g>
+	<g>
+		<path style="fill:#108E82;" d="M165.541,203.645L165.541,203.645c-34.014,9.154-59.051,40.206-59.051,77.111v190.69h117.249    l-0.681-290.413L165.541,203.645z"/>
+	</g>
+	<g>
+		<path style="fill:#FFEEA6;" d="M141.13,34.65c0,0-2.023-21.899,29.087-33.052c11.872-4.256,24.128,1.34,24.128,1.34    s-10.586-0.058-10.403,5.098c0.054,1.508,1.616,2.505,3.081,2.142c5.693-1.411,23.327-5.333,38.088-3.857    c0,0,56.632,6.532,38.529,71.053L141.13,34.65z"/>
+	</g>
+	<g>
+		<path style="fill:#FFEEA6;" d="M181.196,40.278v19.77c0,10.523,5.315,20.334,14.13,26.081l11.912,7.766l-5.362,25.532    l21.176,61.606c0,0,111.957,7.169,38.314-112.159L181.196,40.278z"/>
+	</g>
+	<g>
+		<circle style="fill:#FFC1A3;" cx="205.651" cy="109.976" r="16.788"/>
+	</g>
+	<g>
+		<circle style="fill:#FFEEA6;" cx="254.751" cy="70.994" r="19.3"/>
+	</g>
+	<g>
+		<rect x="200.657" y="253.319" style="fill:#050C04;" width="7" height="218.069"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path style="fill:#FFC1A3;" d="M71.421,471.29l-48.943,0.098c-5.002-0.049-9.016-4.204-8.966-9.28    c0.05-5.076,4.146-9.151,9.148-9.101l-7.876-0.078c-5.002-0.049-9.016-4.204-8.966-9.28v0c0.045-4.546,3.336-8.287,7.616-8.983    l-4.467-0.109c-5.002-0.049-9.016-4.204-8.966-9.28s4.146-9.151,9.148-9.101l5.32,0.118c-3.7-1.185-6.365-4.713-6.324-8.854l0,0    c0.05-5.076,4.146-9.151,9.148-9.101l34.141,0.337c11.447,0.113,20.626,10.274,20.503,22.696L71.421,471.29z"/>
+	</g>
+</g>
+<g>
+	<path style="fill:#115693;" d="M44.281,385.961L44.281,385.961c-18.613,0-33.702-15.089-33.702-33.702v-6.875h67.404v6.875   C77.983,370.872,62.894,385.961,44.281,385.961z"/>
+</g>
+<g>
+	<rect x="71.369" y="415.89" style="fill:#108E82;" width="44.27" height="55.187"/>
+</g>
+<g>
+	<rect x="38.046" y="377.888" style="fill:#115693;" width="11.234" height="70.752"/>
+</g>
+<g>
+	<path style="fill:#FFC1A3;" d="M40.56,417.556H22.916v-19.186H40.56c5.298,0,9.593,4.295,9.593,9.593v0   C50.153,413.261,45.858,417.556,40.56,417.556z"/>
+</g>
+<g>
+	<path style="fill:#FFC1A3;" d="M36.443,433.96H17.745v-17.08h18.697c4.716,0,8.54,3.823,8.54,8.54l0,0   C44.983,430.136,41.159,433.96,36.443,433.96z"/>
+</g>
+<g>
+	<polygon style="fill:#115693;" points="49.28,448.641 65.153,459.683 25.515,459.683 41.298,448.641  "/>
+</g>
+<g>
+	<path style="fill:#FFC1A3;" d="M35.741,451.628l-16.737,0.792l-2.681-18.46h18.697c4.716,0,9.26,4.411,9.26,9.128v0   C44.281,447.804,40.457,451.628,35.741,451.628z"/>
+</g>
+<g>
+	<path style="fill:#FFC1A3;" d="M41.613,468.223H22.916l-0.594-15.219l19.291-1.86c4.716,0,8.54,3.823,8.54,8.54v0   C50.153,464.4,46.329,468.223,41.613,468.223z"/>
+</g>
+<g>
+	<g>
+		<path style="fill:#EE442B;" d="M44.046,380.491L44.046,380.491c10.712,0,20.021-5.998,24.757-14.818H19.289    C24.025,374.492,33.334,380.491,44.046,380.491z"/>
+	</g>
+</g>
+
+            </g>
+        </g>
+    </g>
+    
+    <!-- ITEM 4 -->
+    <g>
+        <defs>
+            <clipPath id="clip-path-id-crop-item-4">
+                
+          <g transform="scale(0.3776449704142012 0.4117647058823529)">
+          <rect x="0.0" y="0.0" width="117.0" height="18.0"/>
+          </g>
+        
+            </clipPath>
+            
+            <clipPath id="clip-path-id-viewbox-item-4">
+                <rect x="0.0" y="0.0" width="63.822" height="7.0"/>
+            </clipPath>
+        </defs>
+        <g clip-path="url(#clip-path-id-crop-item-4)" transform="translate(696.0 963.0) rotate(-12.095922807656697 84.5 8.5) scale(2.647989721412679 2.4285714285714284)">
+            <g clip-path="url(#clip-path-id-viewbox-item-4)" transform="translate(-0.0 -0.0)">
+                
+<g>
+	<g>
+		<rect style="fill:#ffeea6;" width="63.822" height="7"/>
+	</g>
+</g>
+
+            </g>
+        </g>
+    </g>
+    
+    <!-- ITEM 5 -->
+    <g>
+        <defs>
+            <clipPath id="clip-path-id-viewbox-item-5">
+                <rect x="0.0" y="0.0" width="44.297" height="28.706"/>
+            </clipPath>
+        </defs>
+        <g transform="translate(573.0 975.0) rotate(-13.01804860849574 43.0 27.0) scale(1.9414407296205163 1.8811398313941337)">
+            <g clip-path="url(#clip-path-id-viewbox-item-5)" transform="translate(-0.0 -0.0)">
+                
+<g>
+	<g>
+		<polygon style="fill:#1E9E9C;" points="24.523,28.706 0,5.036 4.861,0 24.382,18.841 39.293,3.601 44.297,8.496   "/>
+	</g>
+</g>
+
+            </g>
+        </g>
+    </g>
+    
+    <!-- ITEM 6 -->
+    <g>
+        <defs>
+            <clipPath id="clip-path-id-crop-item-6">
+                
+          <g transform="scale(0.3776449704142012 0.4117647058823529)">
+          <rect x="0.0" y="0.0" width="117.0" height="18.0"/>
+          </g>
+        
+            </clipPath>
+            
+            <clipPath id="clip-path-id-viewbox-item-6">
+                <rect x="0.0" y="0.0" width="63.822" height="7.0"/>
+            </clipPath>
+        </defs>
+        <g clip-path="url(#clip-path-id-crop-item-6)" transform="translate(713.0 1056.0) rotate(-11.970736352479795 84.5 8.5) scale(2.647989721412679 2.4285714285714284)">
+            <g clip-path="url(#clip-path-id-viewbox-item-6)" transform="translate(-0.0 -0.0)">
+                
+<g>
+	<g>
+		<rect style="fill:#ffeea6;" width="63.822" height="7"/>
+	</g>
+</g>
+
+            </g>
+        </g>
+    </g>
+    
+    <!-- ITEM 7 -->
+    <g>
+        <defs>
+            <clipPath id="clip-path-id-viewbox-item-7">
+                <rect x="0.0" y="0.0" width="44.297" height="28.706"/>
+            </clipPath>
+        </defs>
+        <g transform="translate(594.0 1071.0) rotate(-13.01804860849574 43.0 27.0) scale(1.9414407296205163 1.8811398313941337)">
+            <g clip-path="url(#clip-path-id-viewbox-item-7)" transform="translate(-0.0 -0.0)">
+                
+<g>
+	<g>
+		<polygon style="fill:#1E9E9C;" points="24.523,28.706 0,5.036 4.861,0 24.382,18.841 39.293,3.601 44.297,8.496   "/>
+	</g>
+</g>
+
+            </g>
+        </g>
+    </g>
+    
+    <!-- ITEM 8 -->
+    <g>
+        <defs>
+            <clipPath id="clip-path-id-viewbox-item-8">
+                <rect x="0.0" y="0.0" width="39.966" height="44.875"/>
+            </clipPath>
+        </defs>
+        <g transform="translate(408.0 422.0) rotate(-117.99160904386007 -44.0 49.5) scale(-2.201871590852224 2.2061281337047354)">
+            <g clip-path="url(#clip-path-id-viewbox-item-8)" transform="translate(-0.0 -0.0)">
+                
+<g>
+	<g>
+		<path style="fill:#FFEEA6;" d="M39.966,44.875L0,15.717L39.551,0L39.966,44.875z M17.875,17.982L31.1,27.631l-0.137-14.85    L17.875,17.982z"/>
+	</g>
+</g>
+
+            </g>
+        </g>
+    </g>
+    
+    <!-- ITEM 9 -->
+    <g>
+        <defs>
+            <clipPath id="clip-path-id-crop-item-9">
+                
+          <g transform="scale(0.3776449704142012 0.4117647058823529)">
+          <rect x="0.0" y="0.0" width="117.0" height="18.0"/>
+          </g>
+        
+            </clipPath>
+            
+            <clipPath id="clip-path-id-viewbox-item-9">
+                <rect x="0.0" y="0.0" width="63.822" height="7.0"/>
+            </clipPath>
+        </defs>
+        <g clip-path="url(#clip-path-id-crop-item-9)" transform="translate(740.0 1143.0) rotate(-11.970736352479795 84.5 8.5) scale(2.647989721412679 2.4285714285714284)">
+            <g clip-path="url(#clip-path-id-viewbox-item-9)" transform="translate(-0.0 -0.0)">
+                
+<g>
+	<g>
+		<rect style="fill:#ffeea6;" width="63.822" height="7"/>
+	</g>
+</g>
+
+            </g>
+        </g>
+    </g>
+    
+    <!-- ITEM 10 -->
+    <g>
+        <defs>
+            <clipPath id="clip-path-id-viewbox-item-10">
+                <rect x="0.0" y="0.0" width="44.297" height="28.706"/>
+            </clipPath>
+        </defs>
+        <g transform="translate(618.0 1151.0) rotate(-13.01804860849574 43.0 27.0) scale(1.9414407296205163 1.8811398313941337)">
+            <g clip-path="url(#clip-path-id-viewbox-item-10)" transform="translate(-0.0 -0.0)">
+                
+<g>
+	<g>
+		<polygon style="fill:#1E9E9C;" points="24.523,28.706 0,5.036 4.861,0 24.382,18.841 39.293,3.601 44.297,8.496   "/>
+	</g>
+</g>
+
+            </g>
+        </g>
+    </g>
+    
+    <!-- ITEM 11 -->
+    <g>
+        <defs>
+            <clipPath id="clip-path-id-viewbox-item-11">
+                <rect x="0.0" y="0.0" width="51.8" height="51.8"/>
+            </clipPath>
+        </defs>
+        <g transform="translate(383.0 663.0) rotate(0.0 60.5 60.5) scale(2.335907335907336 2.335907335907336)">
+            <g clip-path="url(#clip-path-id-viewbox-item-11)" transform="translate(-0.0 -0.0)">
+                
+
+<g>
+	<g>
+		<path d="M25.9,51.8C11.6,51.8,0,40.2,0,25.9C0,11.6,11.6,0,25.9,0s25.9,11.6,25.9,25.9C51.8,40.2,40.2,51.8,25.9,51.8    z M25.9,11.8c-7.8,0-14.1,6.3-14.1,14.1c0,7.8,6.3,14.1,14.1,14.1S40,33.7,40,25.9C40,18.1,33.7,11.8,25.9,11.8z" style="fill:#050C04;"/>
+	</g>
+</g>
+
+            </g>
+        </g>
+    </g>
+    
+    <!-- ITEM 12 -->
+    <g>
+        <defs>
+            <clipPath id="clip-path-id-viewbox-item-12">
+                <rect x="0.0" y="0.0" width="104.668" height="121.602"/>
+            </clipPath>
+        </defs>
+        <g transform="translate(687.0 1288.0) rotate(0.0 55.5 64.5) scale(1.060496044636374 1.0608378151675137)">
+            <g clip-path="url(#clip-path-id-viewbox-item-12)" transform="translate(-0.0 -0.0)">
+                
+<g>
+	<g>
+		<path style="fill:#FFC1A3;" d="M104.572,17.707C104.537,7.873,96.523-0.063,86.689,0L49.383,0.239    c-8.682,0.056-15.675,7.139-15.619,15.82c0.038,5.879,3.3,10.98,8.097,13.646L27.019,29.8c-8.682,0.056-15.675,7.138-15.619,15.82    c0.038,5.914,3.338,11.042,8.182,13.694l-3.963,0.025C6.938,59.396-0.055,66.479,0,75.16c0.056,8.682,7.139,15.674,15.82,15.619    l6.168-0.039c-6.667,1.856-11.541,7.99-11.494,15.242v0c0.056,8.682,7.138,15.674,15.82,15.619l78.354-0.429L104.572,17.707z"/>
+	</g>
+</g>
+
+            </g>
+        </g>
+    </g>
+    
+    <!-- ITEM 13 -->
+    <g>
+        <defs>
+            <clipPath id="clip-path-id-viewbox-item-13">
+                <rect x="0.0" y="0.0" width="235.135" height="98.809"/>
+            </clipPath>
+        </defs>
+        <g transform="translate(513.0 298.0) rotate(20.858694589307362 117.5 49.5) scale(0.999425861739001 1.0019330222955398)">
+            <g clip-path="url(#clip-path-id-viewbox-item-13)" transform="translate(-0.0 -0.0)">
+                
+<g>
+	<g>
+		<path style="fill:#108E82;" d="M208.135,98.809H27c-14.912,0-27-12.088-27-27V27C0,12.088,12.088,0,27,0h181.135    c14.912,0,27,12.088,27,27v44.809C235.135,86.72,223.047,98.809,208.135,98.809z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<circle style="fill:#FFEEA6;" cx="117.568" cy="49.404" r="31.021"/>
+	</g>
+</g>
+
+            </g>
+        </g>
+    </g>
+    
+    <!-- ITEM 14 -->
+    <g>
+        <defs>
+            <clipPath id="clip-path-id-viewbox-item-14">
+                <rect x="0.0" y="0.0" width="235.135" height="98.809"/>
+            </clipPath>
+        </defs>
+        <g transform="translate(576.0 521.0) rotate(-14.20642384092782 61.0 25.5) scale(0.5188508729028005 0.5161473145158842)">
+            <g clip-path="url(#clip-path-id-viewbox-item-14)" transform="translate(-0.0 -0.0)">
+                
+<g>
+	<g>
+		<path style="fill:#108E82;" d="M208.135,98.809H27c-14.912,0-27-12.088-27-27V27C0,12.088,12.088,0,27,0h181.135    c14.912,0,27,12.088,27,27v44.809C235.135,86.72,223.047,98.809,208.135,98.809z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<circle style="fill:#FFEEA6;" cx="117.568" cy="49.404" r="31.021"/>
+	</g>
+</g>
+
+            </g>
+        </g>
+    </g>
+    
+    <!-- ITEM 15 -->
+    <g>
+        <defs>
+            <clipPath id="clip-path-id-viewbox-item-15">
+                <rect x="0.0" y="0.0" width="70.604" height="126.741"/>
+            </clipPath>
+        </defs>
+        <g transform="translate(996.0 131.0) rotate(0.0 49.0 88.5) scale(1.388023341453742 1.3965488673751982)">
+            <g clip-path="url(#clip-path-id-viewbox-item-15)" transform="translate(-0.0 -0.0)">
+                
+<g>
+	<g>
+		
+			<rect x="-31.564" y="56.266" transform="matrix(-0.4321 0.9018 -0.9018 -0.4321 107.7053 58.9191)" style="fill:#EE442B;" width="133.731" height="14.21"/>
+	</g>
+</g>
+
+            </g>
+        </g>
+    </g>
+    
+    <!-- ITEM 16 -->
+    <g>
+        <defs>
+            <clipPath id="clip-path-id-viewbox-item-16">
+                <rect x="0.0" y="0.0" width="189.089" height="14.0"/>
+            </clipPath>
+        </defs>
+        <g transform="translate(228.0 1147.0) rotate(50.38657579582604 116.0 8.5) scale(1.2269354642522834 1.2142857142857142)">
+            <g clip-path="url(#clip-path-id-viewbox-item-16)" transform="translate(-0.0 -0.0)">
+                
+<g>
+	<rect x="0" y="0" style="fill:#EE442B;" width="189.089" height="14"/>
+</g>
+
+            </g>
+        </g>
+    </g>
+    
+    <!-- ITEM 17 -->
+    <g>
+        <defs>
+            <clipPath id="clip-path-id-viewbox-item-17">
+                <rect x="0.0" y="0.0" width="139.207" height="96.204"/>
+            </clipPath>
+        </defs>
+        <g transform="translate(85.0 798.0) rotate(0.0 159.0 110.0) scale(2.284367883798947 2.286807201363769)">
+            <g clip-path="url(#clip-path-id-viewbox-item-17)" transform="translate(-0.0 -0.0)">
+                
+<g>
+	<line style="fill:#050C04;" x1="1.944" y1="2.91" x2="137.263" y2="93.293"/>
+	
+		<rect x="66.103" y="-33.262" transform="matrix(0.5554 -0.8316 0.8316 0.5554 -9.0561 79.2648)" style="fill:#050C04;" width="7" height="162.728"/>
+</g>
+
+            </g>
+        </g>
+    </g>
+    
+    <!-- ITEM 18 -->
+    <g>
+        <defs>
+            <clipPath id="clip-path-id-viewbox-item-18">
+                <rect x="0.0" y="0.0" width="235.135" height="98.809"/>
+            </clipPath>
+        </defs>
+        <g transform="translate(783.0 1284.0) rotate(0.0 162.0 67.5) scale(1.3779318263976015 1.3662723031302817)">
+            <g clip-path="url(#clip-path-id-viewbox-item-18)" transform="translate(-0.0 -0.0)">
+                
+<g>
+	<g>
+		<path style="fill:#108E82;" d="M208.135,98.809H27c-14.912,0-27-12.088-27-27V27C0,12.088,12.088,0,27,0h181.135    c14.912,0,27,12.088,27,27v44.809C235.135,86.72,223.047,98.809,208.135,98.809z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<circle style="fill:#108e82;" cx="117.568" cy="49.404" r="31.021"/>
+	</g>
+</g>
+
+            </g>
+        </g>
+    </g>
+    
+</svg>
