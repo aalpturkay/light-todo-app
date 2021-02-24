@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:light_todo_app/constants/constants.dart';
-import 'package:light_todo_app/cubits/cubit/onboard_cubit.dart';
+import 'package:light_todo_app/cubits/onboard/onboard_cubit.dart';
+import 'package:light_todo_app/presentation/Onboarding/widgets/onboard_page_content.dart';
 import 'package:sizer/sizer.dart';
 
 class OnBoardPage extends StatelessWidget {
@@ -17,13 +17,21 @@ class OnBoardPage extends StatelessWidget {
             builder: (context, orientation) {
               SizerUtil().init(constraints, orientation);
               return Scaffold(
-                floatingActionButton: FloatingActionButton(
-                  onPressed: () {},
-                  backgroundColor: Constants.color2,
-                  child: Icon(
-                    Icons.arrow_forward_ios,
-                    color: Constants.color3,
-                  ),
+                floatingActionButton: BlocBuilder<OnboardCubit, OnboardState>(
+                  builder: (context, state) {
+                    return FloatingActionButton(
+                      onPressed: () {
+                        context.read<OnboardCubit>().goNextPage();
+                      },
+                      backgroundColor: Constants.color2,
+                      child: Icon(
+                        context.read<OnboardCubit>().isLastPage
+                            ? Icons.done
+                            : Icons.arrow_forward_ios,
+                        color: Constants.color3,
+                      ),
+                    );
+                  },
                 ),
                 body: SizedBox(
                   width: double.infinity,
@@ -33,7 +41,7 @@ class OnBoardPage extends StatelessWidget {
                         height: 4.0.h,
                       ),
                       Text(
-                        "LiTo'ya Hoşgeldin",
+                        Constants.onBoardPageTitle,
                         style: GoogleFonts.exo2(
                           fontSize: 36,
                           color: Constants.color1,
@@ -42,36 +50,52 @@ class OnBoardPage extends StatelessWidget {
                       ),
                       Expanded(
                         flex: 3,
-                        child: PageView.builder(
-                          onPageChanged: (value) {
-                            context.read<OnboardCubit>().setCurrentPage(value);
+                        child: BlocBuilder<OnboardCubit, OnboardState>(
+                          builder: (context, state) {
+                            return PageView.builder(
+                              controller: context
+                                  .read<OnboardCubit>()
+                                  .state
+                                  .pageController,
+                              onPageChanged: (value) {
+                                context
+                                    .read<OnboardCubit>()
+                                    .setCurrentPage(value);
+                              },
+                              itemBuilder: (context, index) =>
+                                  OnboardPageContent(
+                                imgPath:
+                                    Constants.onBoardPageList[index].imagePath,
+                                description: Constants
+                                    .onBoardPageList[index].description,
+                                orientation: orientation,
+                                constraints: constraints,
+                              ),
+                              itemCount: Constants.onBoardPageList.length,
+                            );
                           },
-                          itemBuilder: (context, index) => OnboardPageContent(
-                            imgPath: Constants.onBoardPageList[index].imagePath,
-                            description:
-                                Constants.onBoardPageList[index].description,
-                          ),
-                          itemCount: Constants.onBoardPageList.length,
                         ),
                       ),
                       Expanded(
                         child: Column(
                           children: [
-                            BlocBuilder<OnboardCubit, int>(
-                              builder: (context, state) {
-                                return Row(
-                                  mainAxisAlignment: MainAxisAlignment.center,
-                                  children: List.generate(
-                                    Constants.onBoardPageList.length,
-                                    (index) => Padding(
-                                      padding: const EdgeInsets.symmetric(
-                                        horizontal: 2,
-                                      ),
-                                      child: buildDot(context, index, state),
-                                    ),
+                            Row(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: List.generate(
+                                Constants.onBoardPageList.length,
+                                (index) => Padding(
+                                  padding: const EdgeInsets.symmetric(
+                                    horizontal: 2,
                                   ),
-                                );
-                              },
+                                  child:
+                                      BlocBuilder<OnboardCubit, OnboardState>(
+                                    builder: (context, state) {
+                                      return buildDot(
+                                          context, index, state.currentPage);
+                                    },
+                                  ),
+                                ),
+                              ),
                             ),
                           ],
                         ),
@@ -87,53 +111,17 @@ class OnBoardPage extends StatelessWidget {
     );
   }
 
-  AnimatedContainer buildDot(context, index, state) {
+  AnimatedContainer buildDot(context, index, int currentPage) {
     return AnimatedContainer(
       duration: Duration(
         milliseconds: 300,
       ),
-      width: state == index ? 20 : 10,
+      width: currentPage == index ? 20 : 10,
       height: 10,
       decoration: BoxDecoration(
-        color: state == index ? Constants.color1 : Constants.color2,
+        color: currentPage == index ? Constants.color1 : Constants.color2,
         borderRadius: BorderRadius.circular(6),
       ),
-    );
-  }
-}
-
-class OnboardPageContent extends StatelessWidget {
-  final String imgPath;
-  final String description;
-  const OnboardPageContent({
-    Key key,
-    this.imgPath,
-    this.description,
-  }) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Column(
-      children: [
-        Center(
-          child: SvgPicture.asset(
-            imgPath,
-            height: 45.0.h,
-            width: 90.0.w,
-          ),
-        ),
-        SizedBox(
-          height: 2.0.h,
-        ),
-        Text(
-          description,
-          textAlign: TextAlign.center,
-          style: GoogleFonts.lora(
-            color: Constants.color1,
-            fontSize: 24,
-          ),
-        ),
-      ],
     );
   }
 }

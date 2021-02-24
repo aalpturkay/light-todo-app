@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:light_todo_app/bounce_but.dart';
 import 'package:light_todo_app/presentation/Onboarding/onboard_page.dart';
 import 'package:sizer/sizer.dart';
 
@@ -12,14 +11,15 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return LayoutBuilder(
-      builder: (context, constraints) =>
-          OrientationBuilder(builder: (context, orientation) {
-        SizerUtil().init(constraints, orientation);
-        return MaterialApp(
-          debugShowCheckedModeBanner: false,
-          home: OnBoardPage(),
-        );
-      }),
+      builder: (context, constraints) => OrientationBuilder(
+        builder: (context, orientation) {
+          SizerUtil().init(constraints, orientation);
+          return MaterialApp(
+            debugShowCheckedModeBanner: false,
+            home: OnBoardPage(),
+          );
+        },
+      ),
     );
   }
 }
